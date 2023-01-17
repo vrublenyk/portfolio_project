@@ -1,20 +1,5 @@
 .technologies{
     padding-top: 125px;
-    &__title{
-        text-align: center;
-        @include before_circle;
-        position: relative;
-        margin-bottom: 0;
-        &::before{
-            content: '';
-            top:10px;
-            left:50%;
-            transform: translateX(-50%);
-        }
-    }
-    &__subtitle{
-        text-align: center;
-    }
     &__wrapper{
         margin-top: 60px;
         display: grid;

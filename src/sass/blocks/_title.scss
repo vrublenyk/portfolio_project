@@ -18,6 +18,21 @@
    }
    &_fsz48{
     font-size: 48px;
-}
+    }
+    &__section-title{
+        text-align: center;
+        @include before_circle;
+        position: relative;
+        margin-bottom: 0;
+        &::before{
+            content: '';
+            top:10px;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle{
+        text-align: center;
+    }
 
 }
