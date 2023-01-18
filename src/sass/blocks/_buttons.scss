@@ -7,5 +7,6 @@
     transition: 0.5s all;
     &:hover{
         box-shadow: 5px 5px 15px $main-color;
+        transform: scale(1.05);
     }
 }

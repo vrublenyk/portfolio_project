@@ -1,0 +1,20 @@
+.policy{
+    line-height: 15px;
+    h2{
+        margin: 20px 0;
+    }
+    &__paragraf{
+        margin-left: 50px;
+    }
+    &__btn{
+        width: 250px;
+        height: 50pxpx;
+        display: block;
+        margin: 50px auto;
+        border: none;
+        a{
+            color: #000;
+            font-size: 16px;
+        }
+    }
+}
