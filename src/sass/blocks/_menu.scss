@@ -90,6 +90,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        transition: .6s all;
+        :hover{
+            transform: scale(1.07);
+        }
     }
 
     &__overlay{
